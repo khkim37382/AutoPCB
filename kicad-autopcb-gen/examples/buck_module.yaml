@@ -1,0 +1,13 @@
+name: MyBuck5V
+type: buck_module
+
+power:
+  vin_net: VIN
+  vout_net: +5V
+  gnd_net: GND
+
+stage:
+  in_cap:  { value: "22u", footprint: "Capacitor_SMD:C_1210_3225Metric" }
+  out_cap: { value: "47u", footprint: "Capacitor_SMD:C_1210_3225Metric" }
+  feedback_rtop: { value: "100k", footprint: "Resistor_SMD:R_0603_1608Metric" }
+  feedback_rbot: { value: "20k",  footprint: "Resistor_SMD:R_0603_1608Metric" }

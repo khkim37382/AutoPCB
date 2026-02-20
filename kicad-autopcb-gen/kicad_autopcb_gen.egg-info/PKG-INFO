@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: kicad-autopcb-gen
+Version: 0.1.0
+Summary: Template-driven KiCad 9 project generator (spec/prompt -> schematic + starter PCB).
+Requires-Python: >=3.10
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: kicad-sch-api>=0.1.0

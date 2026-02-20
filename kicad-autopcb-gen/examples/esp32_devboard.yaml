@@ -1,0 +1,17 @@
+name: MyESP32Board
+type: esp32_devboard
+
+power:
+  vcc_net: +3V3
+
+headers:
+  left:
+    pins: 15
+    footprint: "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+  right:
+    pins: 15
+    footprint: "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+
+decoupling:
+  - { value: "100n", footprint: "Capacitor_SMD:C_0603_1608Metric" }
+  - { value: "10u",  footprint: "Capacitor_SMD:C_0805_2012Metric" }

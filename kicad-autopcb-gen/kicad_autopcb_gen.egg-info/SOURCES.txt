@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+kicad_autopcb_gen.egg-info/PKG-INFO
+kicad_autopcb_gen.egg-info/SOURCES.txt
+kicad_autopcb_gen.egg-info/dependency_links.txt
+kicad_autopcb_gen.egg-info/entry_points.txt
+kicad_autopcb_gen.egg-info/requires.txt
+kicad_autopcb_gen.egg-info/top_level.txt
+pcbgen/__init__.py
+pcbgen/ai_layout.py
+pcbgen/ai_spec.py
+pcbgen/cli.py
+pcbgen/kicad_project.py
+pcbgen/spec.py
+pcbgen/templates_buck.py
+pcbgen/templates_esp32dev.py
+pcbgen/templates_i2c.py

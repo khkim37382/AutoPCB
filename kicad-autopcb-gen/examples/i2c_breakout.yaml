@@ -1,0 +1,17 @@
+name: MyI2CBoard
+type: i2c_breakout
+
+power:
+  vcc_net: +3V3
+
+i2c:
+  header_pins: [VCC, GND, SDA, SCL]
+  pullups_ohms: 4700
+  add_pullups: true
+
+decoupling:
+  - { value: "100n", footprint: "Capacitor_SMD:C_0603_1608Metric" }
+  - { value: "1u",   footprint: "Capacitor_SMD:C_0603_1608Metric" }
+
+connectors:
+  header_footprint: "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
