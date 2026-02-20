@@ -2,15 +2,25 @@
 AI-Assisted PCB Generation for KiCad
 AutoPCB Generator is a command-line tool that converts natural language prompts or structured YAML specifications into production-ready KiCad PCB projects.
 The goal is to bridge high-level hardware intent (“3.3V I2C breakout with pull-ups”) to schematic capture, component selection, and board layout automatically.
+
 🚀 Features
+
 📝 Natural language → PCB spec generation
+
 📐 YAML-based structured hardware specification
+
 🔌 Automatic schematic generation
+
 🧭 Net assignment and I2C/SPI power routing support
+
 ⚡ Decoupling capacitor auto-placement
+
 🔄 Pull-up resistor insertion for I2C
+
 📦 KiCad project export (ready to open)
+
 🤖 Optional AI-assisted spec generation
+
 🛠 Tech Stack
 Python 3.10+
 KiCad 7/8
